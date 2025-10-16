@@ -2,6 +2,10 @@
 
 @layer components {
     .nav {
-        @apply bg-cyan-600 rounded-md p-2 font-bold text-white underline
+        @apply bg-blue-950 rounded-lg pt-3 pb-4 mb-5 px-10 font-bold text-white text-3xl
+    }
+
+    .active-nav {
+        @apply mb-0 border-white border-t-4 border-x-4 rounded-b-none
     }
 }
