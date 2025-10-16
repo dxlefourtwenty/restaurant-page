@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@layer components {
+    .nav {
+        @apply bg-cyan-600 rounded-md p-2 font-bold text-white underline
+    }
+}
