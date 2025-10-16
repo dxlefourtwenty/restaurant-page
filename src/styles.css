@@ -1,11 +1,27 @@
 @import "tailwindcss";
 
+body {
+    background-color: white;
+}
+
 @layer components {
     .nav {
-        @apply bg-blue-950 rounded-lg pt-3 pb-4 mb-5 px-10 font-bold text-white text-3xl
+        @apply bg-blue-950 rounded-lg pt-3 pb-4 px-10 mb-5 font-bold text-white text-3xl box-border;
     }
 
     .active-nav {
-        @apply mb-0 border-white border-t-4 border-x-4 rounded-b-none
+        @apply mb-0 border-white border-t-4 border-x-4 rounded-b-none box-border;
+    }
+
+    .menu-card {
+        @apply border-2 border-black w-120 mb-20 mx-50 px-20 py-6 rounded-2xl;
+    }
+
+    .card-title {
+        @apply text-2xl pb-3 font-extrabold;
+    }
+
+    .card-desc {
+        @apply text-xl;
     }
 }

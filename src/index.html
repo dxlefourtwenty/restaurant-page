@@ -13,14 +13,14 @@
         tracking-widest bg-red-800 text-white border-amber-200 border-3">
             Dale's Diner
         </div>
-        <div id="header" class="flex justify-evenly bg-blue-900 py-5 pb-0">
+        <div id="header" class="flex justify-evenly bg-blue-900 py-5 pb-0 mb-20">
             <div class="nav active-nav">About</div>
             <div class="nav">Menu</div>
             <div class="nav">Contact</div>
         </div>
         <div id="about-page">
-            <div id="content" class="flex flex-col justify-center items-center">
-                <div id="about-site" class="text-2xl pt-20 px-50 pb-20 text-center text-shadow-xs">
+            <div class="flex flex-col justify-center items-center">
+                <div id="about-site" class="text-2xl px-50 pb-20 text-center text-shadow-xs">
                     Welcome to real, fun dining! Known for our famous burgers and sandwiches, we only use the best ingredients to give
                     you the best satsifaction, guaranteed! Sourced from our local farms, we get new ship-ins daily to ensure your order 
                     comes fresh to your plate! <br><br> 
@@ -45,11 +45,24 @@
                 </div>
             </div>
         </div>
-        <div id="menu-page" class="hidden text-center">
-            Testing the Menu Page
+        <div id="menu-page" class="hidden">
+            <div id="menu-content" class="flex flex-col justify-center items-center">
+                <div class="menu-card">
+                    <div class="card-title">
+                        Bacon Cheesyburger
+                    </div>
+                    <div class="card-desc">
+                        Two charbroiled patties with two slices of swiss cheese and applewood-smoked bacon, topped with a splash of mayo on two brioche buns.
+                    </div>
+                </div>
+            </div>
         </div>
-        <div id="contact-page" class="hidden text-center">
-            Contact Info:
+        <div id="contact-page" class="hidden">
+            <div id="contact-info" class="text-center">
+                <h1 class="font-bold text-3xl underline mb-2">Contact</h1>
+                <p class="text-xl py-0.5 text-shadow-xs">emailHereAtYourOwnRisk@sexy.net</p>
+                <p class="text-xl py-0.5 text-shadow-xs">+1 607-420-6969</p>
+            </div>
         </div>
     </body>
 </html>
