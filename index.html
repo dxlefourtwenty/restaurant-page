@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dale's Diner</title>
+    <link href="../dist/output.css" rel="stylesheet">
+    <script src="./index.js" defer></script>
+<script defer src="main.js"></script></head>
+    <body>
+        <div id="title" class="font-mono font-extrabold 
+        text-center text-4xl py-3
+        tracking-widest bg-red-800 text-white border-amber-200 border-3">
+            Dale's Diner
+        </div>
+        <div id="header" class="flex justify-evenly bg-blue-900 py-5 pb-0 mb-20">
+            <div class="nav active-nav">About</div>
+            <div class="nav">Menu</div>
+            <div class="nav">Contact</div>
+        </div>
+        <div id="about-page">
+            <div class="flex flex-col justify-center items-center">
+                <div id="about-site" class="text-2xl px-50 pb-20 text-center text-shadow-xs">
+                    Welcome to real, fun dining! Known for our famous burgers and sandwiches, we only use the best ingredients to give
+                    you the best satsifaction, guaranteed! Sourced from our local farms, we get new ship-ins daily to ensure your order 
+                    comes fresh to your plate! <br><br> 
+                    We've got a wide range of selections that can spawn a feast for the whole family. Don't forget to invite your estranged
+                    relatives, because we will feed 'em too! <br><br>
+                    <span class="font-bold">Go on and click that menu button above to get started!</span>
+                </div>
+                <div id="hours" class="text-center">
+                    <h1 class="font-bold text-3xl underline mb-2">Hours</h1>
+                    <p class="text-xl py-0.5 text-shadow-xs">Mon-Thu 10:00am - 9:00pm</p>
+                    <p class="text-xl py-0.5 text-shadow-xs">Fri-Sat 9:00am - 11:00pm</p>
+                    <p class="text-xl py-0.5 text-shadow-xs">Sun 9:00am - 7:00pm</p>
+                </div>
+                <div id="location" class="text-center pt-15 text-shadow-black">
+                    <h1 class="font-bold text-3xl underline mb-2">Locations</h1>
+                    <p class="text-xl py-0.5 text-shadow-xs">Anaheim | 607 West Boulevard St.</p>
+                    <p class="text-xl py-0.5 text-shadow-xs">West Covina | 6969 East Holt Ave.</p>
+                    <p class="text-xl py-0.5 text-shadow-xs">Rowland Heights | 420 VIP Bil Rd.</p>
+                </div>
+                <div id="footer" class="pt-20 pb-5 font-bold text-shadow-black">
+                    Copyright @ D.D 2025-2026
+                </div>
+            </div>
+        </div>
+        <div id="menu-page" class="hidden">
+            <div id="menu-content" class="flex flex-col justify-center items-center">
+                <div class="menu-card">
+                    <div class="card-title">
+                        Bacon Cheesyburger
+                    </div>
+                    <div class="card-desc">
+                        Two charbroiled patties with two slices of swiss cheese and applewood-smoked bacon, topped with a splash of mayo on two brioche buns.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contact-page" class="hidden">
+            <div id="contact-info" class="text-center">
+                <h1 class="font-bold text-3xl underline mb-2">Contact</h1>
+                <p class="text-xl py-0.5 text-shadow-xs">emailHereAtYourOwnRisk@sexy.net</p>
+                <p class="text-xl py-0.5 text-shadow-xs">+1 607-420-6969</p>
+            </div>
+        </div>
+    </body>
+</html>
